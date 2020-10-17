@@ -151,7 +151,4 @@ class OAuth2Application {
   }
 }
 
-OAuth2Application.prototype.reset =
-  util.deprecate(OAuth2Application.prototype.reset, 'OAuth2Application#reset: userbot methods will be removed');
-
 module.exports = OAuth2Application;

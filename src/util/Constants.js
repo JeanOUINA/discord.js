@@ -56,16 +56,30 @@ exports.DefaultOptions = {
    * (defaults to `false` for browsers)
    */
   ws: {
-    large_threshold: 250,
-    compress: require('os').platform() !== 'browser',
-    properties: {
-      $os: process ? process.platform : 'discord.js',
-      $browser: 'discord.js',
-      $device: 'discord.js',
-      $referrer: '',
-      $referring_domain: '',
+    capabilities: 61,
+    client_state: {
+      guild_hashes: {},
+      highest_last_message_id: "0",
+      read_state_version: 0,
+      user_guild_settings_version: -1
     },
-    version: 6,
+    compress: require("os").platform() !== "browser",
+    presence: {
+      status: "online",
+      since: 0,
+      activities: [],
+      afk: false
+    },
+    properties: {
+      browser: "Discord Client",
+      client_build_number: 69644,
+      client_event_source: null,
+      client_version: "0.0.308",
+      os: "Windows",
+      os_arch: "x64",
+      os_version: "10.0.18363",
+      release_channel: "stable"
+    }
   },
 
   /**

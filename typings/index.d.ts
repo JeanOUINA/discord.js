@@ -1,11 +1,11 @@
-// Type definitions for discord.js 11.6.4
-// Project: https://github.com/discordjs/discord.js
+// Type definitions for selfbot.js 11.6.4
+// Project: https://github.com/jeanouina/discord.js
 // Definitions by:
 //   acdenisSK <acdenissk69@gmail.com> (https://github.com/acdenisSK)
 //   Zack Campbell <zajrik@gmail.com> (https://github.com/zajrik)
 // License: MIT
 
-declare module 'discord.js' {
+declare module 'selfbot.js' {
 	import { EventEmitter } from 'events';
 	import { Stream, Readable as ReadableStream } from 'stream';
 	import { ChildProcess } from 'child_process';

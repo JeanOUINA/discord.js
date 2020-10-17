@@ -423,25 +423,7 @@ class ClientUser extends User {
   }
 }
 
-ClientUser.prototype.acceptInvite =
-  util.deprecate(ClientUser.prototype.acceptInvite, 'ClientUser#acceptInvite: userbot methods will be removed');
-
 ClientUser.prototype.setGame =
   util.deprecate(ClientUser.prototype.setGame, 'ClientUser#setGame: use ClientUser#setActivity instead');
-
-ClientUser.prototype.addFriend =
-  util.deprecate(ClientUser.prototype.addFriend, 'ClientUser#addFriend: userbot methods will be removed');
-
-ClientUser.prototype.removeFriend =
-  util.deprecate(ClientUser.prototype.removeFriend, 'ClientUser#removeFriend: userbot methods will be removed');
-
-ClientUser.prototype.setPassword =
-  util.deprecate(ClientUser.prototype.setPassword, 'ClientUser#setPassword: userbot methods will be removed');
-
-ClientUser.prototype.setEmail =
-  util.deprecate(ClientUser.prototype.setEmail, 'ClientUser#setEmail: userbot methods will be removed');
-
-ClientUser.prototype.fetchMentions =
-  util.deprecate(ClientUser.prototype.fetchMentions, 'ClientUser#fetchMentions: userbot methods will be removed');
 
 module.exports = ClientUser;

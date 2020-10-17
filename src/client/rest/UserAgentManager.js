@@ -12,8 +12,8 @@ class UserAgentManager {
     });
   }
 
-  build(ua) {
-    this.userAgent = `DiscordBot (${ua.url}, ${ua.version}) Node.js/${process.version}`;
+  build() {
+    this.userAgent = `Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.308 Chrome/83.0.4103.122 Electron/9.3.1 Safari/537.36`;
   }
 }
 

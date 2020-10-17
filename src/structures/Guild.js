@@ -1690,21 +1690,6 @@ Object.defineProperty(Guild.prototype, 'defaultChannel', {
   }, 'Guild#defaultChannel: This property is obsolete, will be removed in v12.0.0, and may not function as expected.'),
 });
 
-Guild.prototype.allowDMs =
-  util.deprecate(Guild.prototype.allowDMs, 'Guild#allowDMs: userbot methods will be removed');
-
-Guild.prototype.acknowledge =
-  util.deprecate(Guild.prototype.acknowledge, 'Guild#acknowledge: userbot methods will be removed');
-
-Guild.prototype.setPosition =
-  util.deprecate(Guild.prototype.setPosition, 'Guild#setPosition: userbot methods will be removed');
-
-Guild.prototype.search =
-  util.deprecate(Guild.prototype.search, 'Guild#search: userbot methods will be removed');
-
-Guild.prototype.sync =
-  util.deprecate(Guild.prototype.sync, 'Guild#sync:, userbot methods will be removed');
-
 Guild.prototype.deleteEmoji =
   util.deprecate(Guild.prototype.deleteEmoji, 'Guild#deleteEmoji: use Emoji#delete instead');
 
